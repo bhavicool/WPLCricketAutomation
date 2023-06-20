@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WPL Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="WPL Highest Scores Validation(failed)">
+    <classes>
+      <class name="tests.WPLAutomationTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setup"/>
+          <include name="testPlayersHighestScore"/>
+        </methods>
+      </class> <!-- tests.WPLAutomationTest -->
+    </classes>
+  </test> <!-- WPL Highest Scores Validation(failed) -->
+</suite> <!-- Failed suite [WPL Test Suite] -->
